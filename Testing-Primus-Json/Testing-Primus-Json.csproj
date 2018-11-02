@@ -90,11 +90,5 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\testing\RestSession\SharedLibraries\SharedLibraries.csproj">
-      <Project>{732f5009-c982-46cf-978a-26d1124dd566}</Project>
-      <Name>SharedLibraries</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

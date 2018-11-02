@@ -1,0 +1,14 @@
+﻿<Application x:Class="Client.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:VModel="clr-namespace:Client.ViewModels"
+             StartupUri="MainWindow.xaml" Startup="ApplicationStartup">
+    <Application.Resources>
+        <Style TargetType="Window" x:Key="WindowStyle">
+            <Setter Property="FontFamily" Value="Verdana" />
+            <Setter Property="FontSize"  Value="12" />
+        </Style>
+
+        <VModel:MainWindowVM x:Key="MainWindowVM" />
+    </Application.Resources>
+</Application>
