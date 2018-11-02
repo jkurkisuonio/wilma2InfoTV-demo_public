@@ -4,6 +4,10 @@ Datan siirto Wilmasta InfoTV:hen. Loggautuu sisään Wilmaan ja hakee esimerkiss
 HUOM!
 
 Lisää projektiin seuraavat settingsit app.configiin:
+wilmaUrl -> osoite wilma palvelimeesi, https://wilma.organisaatiosi.fi/ (viimein / tärkeä!)
+username -> palvelutunnus, jolla otat Json rest apiin yhteyttä.
+passwd -> palvelutunnuksen salasana
+companySpesificKey -> saat Vismalta omasi
 
 <applicationSettings>
     <Testing_Primus_Json.Properties.Settings>
