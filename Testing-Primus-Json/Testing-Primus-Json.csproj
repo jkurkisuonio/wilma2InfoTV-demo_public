@@ -65,8 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IndexJson.cs" />
+    <Compile Include="List.cs" />
     <Compile Include="LoginResultJson.cs" />
     <Compile Include="Models\ActivityType.cs" />
+    <Compile Include="Models\Careeria\CareeriaRoom.cs" />
     <Compile Include="Models\Group.cs" />
     <Compile Include="Models\RecourceSchedule.cs" />
     <Compile Include="Models\Room.cs" />
@@ -80,15 +82,25 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Utils\CareeriaSpesific.cs" />
     <Compile Include="WilmaJson.cs" />
+    <Compile Include="WilmaQuery.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RestSession\SharedLibraries\SharedLibraries.csproj">
+      <Project>{732f5009-c982-46cf-978a-26d1124dd566}</Project>
+      <Name>SharedLibraries</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

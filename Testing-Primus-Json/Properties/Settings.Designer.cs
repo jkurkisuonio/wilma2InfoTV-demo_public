@@ -23,39 +23,51 @@ namespace Testing_Primus_Json.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://servernameHERE/")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://wilma.edupoli.fi/")]
         public string wilmaUrl {
             get {
                 return ((string)(this["wilmaUrl"]));
             }
+            set {
+                this["wilmaUrl"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("passwordHERE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("V01hanG1tHubS3ntaan!")]
         public string passwd {
             get {
                 return ((string)(this["passwd"]));
             }
+            set {
+                this["passwd"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("usernameHERE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("wilmaapi2@edupoli.fi")]
         public string username {
             get {
                 return ((string)(this["username"]));
             }
+            set {
+                this["username"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("companySpecificKeyHERE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("n3do2984hfcl4398flls93jlsu3un3do2984hfcl4398flls93jlsu3u323sqc")]
         public string companySpesificKey {
             get {
                 return ((string)(this["companySpesificKey"]));
+            }
+            set {
+                this["companySpesificKey"] = value;
             }
         }
     }

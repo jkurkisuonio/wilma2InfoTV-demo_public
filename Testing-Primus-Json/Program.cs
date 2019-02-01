@@ -8,6 +8,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Testing_Primus_Json.Models;
+using Testing_Primus_Json.Models.Careeria;
 
 namespace Testing_Primus_Json
 {
@@ -51,6 +52,11 @@ namespace Testing_Primus_Json
                   
                 }
             }
+
+
+            WilmaQuery wilmaQuery = new WilmaQuery(wilma);
+           List<CareeriaRoom> kaikkiHuoneet = wilmaQuery.GetARoom();
+
 
             Console.ReadLine();
 

@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Net.Http.Formatting;
 using SharedLibraries.ClientUtilities;
 using SharedLibraries.ShareTypes;
+using Testing_Primus_Json.Models.Careeria;
 
 namespace Testing_Primus_Json
 {
@@ -70,6 +71,8 @@ namespace Testing_Primus_Json
             return jsonResponseString;
         }
 
+  
+
         /// <summary>
         /// Kirjaudutaan evästeiden kanssa 
         /// </summary>
@@ -118,6 +121,7 @@ namespace Testing_Primus_Json
             }
             hash = sb.ToString();           
         }
+
 
 
     }
